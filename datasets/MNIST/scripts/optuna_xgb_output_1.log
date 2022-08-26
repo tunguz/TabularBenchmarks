@@ -1,0 +1,63 @@
+Start optimization.
+start listen on 192.168.1.200:43495
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:33719
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:51455
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:53325
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:39069
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+Trial 18 finished with value: 0.977 and parameters: {'tree_method': 'gpu_hist', 'lambda': 7.279780273270483, 'alpha': 0.6784433239652391, 'colsample_bytree': 0.5305728050552398, 'subsample': 0.658393317777556, 'learning_rate': 0.04206860846914612, 'max_depth': 5, 'min_child_weight': 2, 'eval_metric': 'logloss'}. Best is trial 18 with value: 0.977.
+start listen on 192.168.1.200:33099
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:43273
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:54839
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:57929
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:35759
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+Trial 19 finished with value: 0.9752166666666666 and parameters: {'tree_method': 'gpu_hist', 'lambda': 8.71512711618254, 'alpha': 1.0837524503805835, 'colsample_bytree': 0.5577785438904893, 'subsample': 0.667104337235986, 'learning_rate': 0.04521337356595473, 'max_depth': 5, 'min_child_weight': 16, 'eval_metric': 'logloss'}. Best is trial 18 with value: 0.977.
+
+Traceback (most recent call last):
+  File "/home/tunguz/.local/lib/python3.8/site-packages/distributed/utils.py", line 778, in wrapper
+    return await func(*args, **kwargs)
+  File "/home/tunguz/.local/lib/python3.8/site-packages/distributed/client.py", line 1211, in _reconnect
+    await self._ensure_connected(timeout=timeout)
+  File "/home/tunguz/.local/lib/python3.8/site-packages/distributed/client.py", line 1241, in _ensure_connected
+    comm = await connect(
+  File "/home/tunguz/.local/lib/python3.8/site-packages/distributed/comm/core.py", line 315, in connect
+    await asyncio.sleep(backoff)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 659, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+Traceback (most recent call last):
+  File "/home/tunguz/.local/lib/python3.8/site-packages/distributed/utils.py", line 778, in wrapper
+    return await func(*args, **kwargs)
+  File "/home/tunguz/.local/lib/python3.8/site-packages/distributed/client.py", line 1400, in _handle_report
+    await self._reconnect()
+  File "/home/tunguz/.local/lib/python3.8/site-packages/distributed/utils.py", line 778, in wrapper
+    return await func(*args, **kwargs)
+  File "/home/tunguz/.local/lib/python3.8/site-packages/distributed/client.py", line 1211, in _reconnect
+    await self._ensure_connected(timeout=timeout)
+  File "/home/tunguz/.local/lib/python3.8/site-packages/distributed/client.py", line 1241, in _ensure_connected
+    comm = await connect(
+  File "/home/tunguz/.local/lib/python3.8/site-packages/distributed/comm/core.py", line 315, in connect
+    await asyncio.sleep(backoff)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 659, in sleep
+    return await future
+asyncio.exceptions.CancelledError

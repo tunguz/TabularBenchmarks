@@ -1,0 +1,19 @@
+Start optimization.
+start listen on 192.168.1.200:43495
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:33719
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:51455
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:53325
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:39069
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+Trial 18 finished with value: 0.977 and parameters: {'tree_method': 'gpu_hist', 'lambda': 7.279780273270483, 'alpha': 0.6784433239652391, 'colsample_bytree': 0.5305728050552398, 'subsample': 0.658393317777556, 'learning_rate': 0.04206860846914612, 'max_depth': 5, 'min_child_weight': 2, 'eval_metric': 'logloss'}. Best is trial 18 with value: 0.977.
+start listen on 192.168.1.200:33099
+@tracker All of 1 nodes getting started
