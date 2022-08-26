@@ -1,0 +1,49 @@
+Start optimization.
+start listen on 192.168.1.116:58299
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.116:59663
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.116:49561
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.116:36511
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.116:38229
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+Trial 20 finished with value: 0.96505 and parameters: {'tree_method': 'gpu_hist', 'lambda': 9.205163640245669, 'alpha': 0.7082764392796036, 'colsample_bytree': 0.5610457362422541, 'subsample': 0.8414507441887358, 'learning_rate': 0.033997118394283904, 'max_depth': 5, 'min_child_weight': 93, 'eval_metric': 'logloss'}. Best is trial 18 with value: 0.977.
+start listen on 192.168.1.116:40003
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.116:46759
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.116:56767
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.116:47203
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.116:46277
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+Trial 21 finished with value: 0.9675666666666667 and parameters: {'tree_method': 'gpu_hist', 'lambda': 8.651185989472413, 'alpha': 2.328093585906526, 'colsample_bytree': 0.4983746842652185, 'subsample': 0.6569784590200637, 'learning_rate': 0.04278458609186614, 'max_depth': 5, 'min_child_weight': 63, 'eval_metric': 'logloss'}. Best is trial 18 with value: 0.977.
+start listen on 192.168.1.116:45289
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.116:52965
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.116:44923
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.116:48073
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.116:58949
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+Trial 22 finished with value: 0.92055 and parameters: {'tree_method': 'gpu_hist', 'lambda': 2.661312975711766, 'alpha': 0.3155547333834339, 'colsample_bytree': 0.6852779645206734, 'subsample': 0.4224042897171234, 'learning_rate': 0.0018247376875285414, 'max_depth': 5, 'min_child_weight': 4, 'eval_metric': 'logloss'}. Best is trial 18 with value: 0.977.
