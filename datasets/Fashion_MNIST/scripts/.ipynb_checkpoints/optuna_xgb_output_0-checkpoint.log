@@ -1,0 +1,20 @@
+A new study created in RDB with name: five_fold_optuna_xgb_0
+Start optimization.
+start listen on 192.168.1.200:33817
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:56513
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:41571
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:43349
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 192.168.1.200:47377
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+Trial 0 finished with value: 0.8667166666666667 and parameters: {'tree_method': 'gpu_hist', 'lambda': 0.11066254228784372, 'alpha': 3.5661089668557953, 'colsample_bytree': 0.33699048774008183, 'subsample': 0.40089357480943455, 'learning_rate': 0.08094053740161382, 'max_depth': 17, 'min_child_weight': 289, 'eval_metric': 'logloss'}. Best is trial 0 with value: 0.8667166666666667.
+start listen on 192.168.1.200:35603
+@tracker All of 1 nodes getting started
