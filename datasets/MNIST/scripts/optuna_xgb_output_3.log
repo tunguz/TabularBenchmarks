@@ -1,0 +1,79 @@
+Start optimization.
+start listen on 10.110.42.71:35005
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 10.110.42.71:59735
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 10.110.42.71:33449
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 10.110.42.71:49065
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 10.110.42.71:39435
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+Trial 23 finished with value: 0.9589666666666666 and parameters: {'tree_method': 'gpu_hist', 'lambda': 4.091931470824686, 'alpha': 3.2741688162939306, 'colsample_bytree': 0.4141263109282238, 'subsample': 0.698808839294424, 'learning_rate': 0.027263412361735958, 'max_depth': 5, 'min_child_weight': 102, 'eval_metric': 'logloss'}. Best is trial 18 with value: 0.977.
+start listen on 10.110.42.71:54397
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 10.110.42.71:52223
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 10.110.42.71:60387
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 10.110.42.71:52871
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 10.110.42.71:44337
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+Trial 24 finished with value: 0.88825 and parameters: {'tree_method': 'gpu_hist', 'lambda': 0.018378850334534458, 'alpha': 0.5038593056747632, 'colsample_bytree': 0.30322095827567486, 'subsample': 0.8920159202693854, 'learning_rate': 0.003487984101520977, 'max_depth': 3, 'min_child_weight': 39, 'eval_metric': 'logloss'}. Best is trial 18 with value: 0.977.
+start listen on 10.110.42.71:33715
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 10.110.42.71:42339
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 10.110.42.71:41495
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 10.110.42.71:52877
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+start listen on 10.110.42.71:35167
+@tracker All of 1 nodes getting started
+@tracker All nodes finishes job
+Trial 25 finished with value: 0.9694666666666667 and parameters: {'tree_method': 'gpu_hist', 'lambda': 0.0011917564945085669, 'alpha': 0.07467649902487658, 'colsample_bytree': 0.5558419540242258, 'subsample': 0.6283809744781474, 'learning_rate': 0.05357589108198747, 'max_depth': 20, 'min_child_weight': 60, 'eval_metric': 'logloss'}. Best is trial 18 with value: 0.977.
+
+Traceback (most recent call last):
+  File "/home/btunguz/.local/lib/python3.8/site-packages/distributed/utils.py", line 778, in wrapper
+    return await func(*args, **kwargs)
+  File "/home/btunguz/.local/lib/python3.8/site-packages/distributed/client.py", line 1211, in _reconnect
+    await self._ensure_connected(timeout=timeout)
+  File "/home/btunguz/.local/lib/python3.8/site-packages/distributed/client.py", line 1241, in _ensure_connected
+    comm = await connect(
+  File "/home/btunguz/.local/lib/python3.8/site-packages/distributed/comm/core.py", line 315, in connect
+    await asyncio.sleep(backoff)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 659, in sleep
+    return await future
+asyncio.exceptions.CancelledError
+
+Traceback (most recent call last):
+  File "/home/btunguz/.local/lib/python3.8/site-packages/distributed/utils.py", line 778, in wrapper
+    return await func(*args, **kwargs)
+  File "/home/btunguz/.local/lib/python3.8/site-packages/distributed/client.py", line 1400, in _handle_report
+    await self._reconnect()
+  File "/home/btunguz/.local/lib/python3.8/site-packages/distributed/utils.py", line 778, in wrapper
+    return await func(*args, **kwargs)
+  File "/home/btunguz/.local/lib/python3.8/site-packages/distributed/client.py", line 1211, in _reconnect
+    await self._ensure_connected(timeout=timeout)
+  File "/home/btunguz/.local/lib/python3.8/site-packages/distributed/client.py", line 1241, in _ensure_connected
+    comm = await connect(
+  File "/home/btunguz/.local/lib/python3.8/site-packages/distributed/comm/core.py", line 315, in connect
+    await asyncio.sleep(backoff)
+  File "/usr/lib/python3.8/asyncio/tasks.py", line 659, in sleep
+    return await future
+asyncio.exceptions.CancelledError
