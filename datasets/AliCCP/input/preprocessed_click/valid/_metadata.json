@@ -1,0 +1,1 @@
+{"file_stats": [{"file_name": "part_0.parquet", "num_rows": 133042}, {"file_name": "part_1.parquet", "num_rows": 117351}, {"file_name": "part_2.parquet", "num_rows": 102480}, {"file_name": "part_3.parquet", "num_rows": 92149}], "cats": [], "conts": [], "labels": []}
