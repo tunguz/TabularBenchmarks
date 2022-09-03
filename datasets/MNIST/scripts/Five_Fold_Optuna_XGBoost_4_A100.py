@@ -111,7 +111,7 @@ def main():
                                     study_name="five_fold_optuna_xgb_0")
         logger.info("Start optimization.")
         #study.optimize(objective, n_trials=2)
-        study.optimize(lambda trial: objective(client, train, target, train_folds, val_folds, train_ys, val_ys, trial), n_trials=100)
+        study.optimize(lambda trial: objective(client, train, target, train_folds, val_folds, train_ys, val_ys, trial), n_trials=1000)
 
     #df = study.trials_dataframe(attrs=('number', 'value', 'params', 'state'))
     #df.to_csv('optuna_xgb_output_2.csv', index=False)
