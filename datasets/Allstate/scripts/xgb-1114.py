@@ -8,6 +8,7 @@
 # %% [code]
 # %% [code]
 # %% [code]
+# %% [code]
 __author__ = 'Vladimir Iglovikov'
 
 import pandas as pd
@@ -58,7 +59,7 @@ if __name__ == '__main__':
         'min_child_weight': 1,
         'eta': 0.01,
         'colsample_bytree': 0.5,
-        'max_depth': 12,
+        'max_depth': 10,
         'subsample': 0.8,
         'alpha': 1,
         'gamma': 1,
@@ -79,7 +80,7 @@ if __name__ == '__main__':
     for jj in range(n_seeds):
         params['seed'] = 7*jj**2+2016
 
-        model = xgb.train(params, xgtrain, int(3000 / 0.9), feval=evalerror)
+        model = xgb.train(params, xgtrain, 3333, feval=evalerror)
 
         prediction += (np.exp(model.predict(xgtest)) - shift)/n_seeds
 
