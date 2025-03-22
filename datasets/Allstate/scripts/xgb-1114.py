@@ -67,7 +67,7 @@ if __name__ == '__main__':
         'verbose_eval': True,
         'seed': RANDOM_STATE,
         'device': 'cuda',
-        'tree_method': 'hist'
+        'tree_method': 'approx'
     }
 
     xgtrain = xgb.DMatrix(X, label=y)
