@@ -59,15 +59,15 @@ if __name__ == '__main__':
         'min_child_weight': 1,
         'eta': 0.01,
         'colsample_bytree': 0.5,
-        'max_depth': 10,
+        'max_depth': 12,
         'subsample': 0.8,
         'alpha': 1,
         'gamma': 1,
         'silent': 1,
         'verbose_eval': True,
         'seed': RANDOM_STATE,
-        'device': 'cuda',
-        'tree_method': 'approx'
+        #'device': 'cuda',
+        #'tree_method': 'approx'
     }
 
     xgtrain = xgb.DMatrix(X, label=y)
@@ -80,7 +80,7 @@ if __name__ == '__main__':
     for jj in range(n_seeds):
         params['seed'] = 7*jj**2+2016
 
-        model = xgb.train(params, xgtrain, 3333, feval=evalerror)
+        model = xgb.train(params, xgtrain, 2800, feval=evalerror)
 
         prediction += (np.exp(model.predict(xgtest)) - shift)/n_seeds
 
