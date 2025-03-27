@@ -82,7 +82,7 @@ if __name__ == '__main__':
     for jj in range(n_seeds):
         params['seed'] = 7*jj**2+2016
 
-        model = xgb.train(params, xgtrain, 3600, feval=evalerror)
+        model = xgb.train(params, xgtrain, 3700, feval=evalerror)
 
         prediction += (np.exp(model.predict(xgtest)) - shift)/n_seeds
 
