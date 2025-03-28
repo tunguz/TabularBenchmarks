@@ -11,6 +11,7 @@
 # %% [code]
 # %% [code]
 # %% [code]
+# %% [code]
 __author__ = 'Vladimir Iglovikov'
 
 import pandas as pd
@@ -62,7 +63,7 @@ if __name__ == '__main__':
         'eta': 0.01,
         'colsample_bytree': 0.5,
         'max_depth': 12,
-        'subsample': 0.82,
+        'subsample': 0.85,
         'alpha': 1,
         'gamma': 1,
         'silent': 1,
