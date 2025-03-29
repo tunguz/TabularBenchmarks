@@ -61,9 +61,9 @@ if __name__ == '__main__':
     params = {
         'min_child_weight': 1,
         'eta': 0.01,
-        'colsample_bytree': 0.5,
+        'colsample_bytree': 0.52,
         'max_depth': 12,
-        'subsample': 0.9,
+        'subsample': 0.875,
         'alpha': 1,
         'gamma': 1,
         'silent': 1,
