@@ -61,10 +61,10 @@ if __name__ == '__main__':
     params = {
         'min_child_weight': 1,
         'eta': 0.01,
-        'colsample_bytree': 0.48,
+        'colsample_bytree': 0.50,
         'max_depth': 12,
         'subsample': 0.875,
-        'alpha': 1,
+        'alpha': 0.9,
         'gamma': 1,
         'silent': 1,
         'verbose_eval': True,
