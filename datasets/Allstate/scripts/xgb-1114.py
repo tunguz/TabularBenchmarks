@@ -63,7 +63,7 @@ if __name__ == '__main__':
         'min_child_weight': 1,
         'eta': 0.01,
         'colsample_bytree': 0.50,
-        'max_depth': 12,
+        'max_depth': 13,
         'subsample': 0.875,
         'alpha': 1.1,
         'gamma': 1,
