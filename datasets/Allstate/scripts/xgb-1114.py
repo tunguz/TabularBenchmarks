@@ -52,7 +52,7 @@ if __name__ == '__main__':
     train = joined[joined['loss'].notnull()]
     test = joined[joined['loss'].isnull()]
 
-    shift = 200
+    shift = 210
     y = np.log(train['loss'] + shift)
     ids = test['id']
     X = train.drop(['loss', 'id'], 1)
@@ -63,7 +63,7 @@ if __name__ == '__main__':
         'min_child_weight': 1,
         'eta': 0.01,
         'colsample_bytree': 0.50,
-        'max_depth': 10,
+        'max_depth': 11,
         'subsample': 0.875,
         'alpha': 1.1,
         'gamma': 1,
