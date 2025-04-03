@@ -13,6 +13,7 @@
 # %% [code]
 # %% [code]
 # %% [code]
+# %% [code]
 __author__ = 'Vladimir Iglovikov'
 
 import pandas as pd
@@ -52,7 +53,7 @@ if __name__ == '__main__':
     train = joined[joined['loss'].notnull()]
     test = joined[joined['loss'].isnull()]
 
-    shift = 210
+    shift = 190
     y = np.log(train['loss'] + shift)
     ids = test['id']
     X = train.drop(['loss', 'id'], 1)
