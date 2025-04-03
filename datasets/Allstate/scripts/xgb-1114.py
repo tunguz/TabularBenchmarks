@@ -14,6 +14,7 @@
 # %% [code]
 # %% [code]
 # %% [code]
+# %% [code]
 __author__ = 'Vladimir Iglovikov'
 
 import pandas as pd
@@ -53,7 +54,7 @@ if __name__ == '__main__':
     train = joined[joined['loss'].notnull()]
     test = joined[joined['loss'].isnull()]
 
-    shift = 190
+    shift = 200
     y = np.log(train['loss'] + shift)
     ids = test['id']
     X = train.drop(['loss', 'id'], 1)
@@ -67,7 +68,7 @@ if __name__ == '__main__':
         'max_depth': 11,
         'subsample': 0.875,
         'alpha': 1.1,
-        'gamma': 1,
+        'gamma': 0.8,
         'silent': 1,
         'verbose_eval': True,
         'seed': RANDOM_STATE,
